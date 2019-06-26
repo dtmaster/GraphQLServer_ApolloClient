@@ -1,0 +1,12 @@
+{
+  "type": "postgres",
+  "host": "john.db.elephantsql.com",
+  "port": 5432,
+  "username": "hpsnbftz",
+  "password": "fSTz8OGYsYTHhK0H-b_KbSCLiFYYYigp",
+  "database": "hpsnbftz",
+  "synchronize": true,
+  "logging": false,
+
+  "entities": ["src/entities/**/*.ts"]
+}
