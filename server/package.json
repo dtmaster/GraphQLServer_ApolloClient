@@ -7,12 +7,17 @@
     "start": "nodemon"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.3.3",
     "@types/node": "^10.12.11",
     "nodemon": "^1.18.7",
     "ts-node": "^7.0.1",
     "typescript": "^3.2.1"
   },
   "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "apollo-server": "^2.6.7",
     "graphql-yoga": "^1.16.7",
     "pg": "^7.7.1",
     "reflect-metadata": "^0.1.12",
